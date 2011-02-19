@@ -1,8 +1,6 @@
 
 CPU=s3c6410
 
-#CROSS_PATH=/usr/local/software/toolchain-arm-karmic.rgs0
-#CROSS_COMPILE=${CROSS_PATH}/bin/arm-none-linux-gnueabi-
 CROSS_PATH=../android/prebuilt/linux-x86/toolchain/arm-eabi-4.3.1
 CROSS_COMPILE=${CROSS_PATH}/bin/arm-eabi-
 
@@ -16,7 +14,7 @@ OBJCOPY = $(CROSS_COMPILE)objcopy
 OBJDUMP = $(CROSS_COMPILE)objdump
 HOSTCC	= gcc
 
-KERNEL_PATH=../kernel
+KERNEL_PATH=../linux
 INCLUDE_KERNEL=$(KERNEL_PATH)/include
 
 ARCH_PATH=$(KERNEL_PATH)/arch/arm

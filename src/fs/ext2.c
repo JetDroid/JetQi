@@ -26,8 +26,8 @@
 #include <qi.h>
 
 #include <ext2.h>
-#include <malloc.h>
-#include <string.h>
+//#include <malloc.h>
+//#include <string.h>
 
 /* Al Ch edited this file at 2010-05-17 */
 #include "../cpu/s3c6410/jet.h"
