@@ -216,6 +216,7 @@ void jet_early_port_init(void)
 void jet_port_init(void)
 {
 	//jump_Baseband_Init();
+/*
 	LCD_print_newline("Initializing baseband ...");
 	asm volatile (
 		"stmfd	sp!, {r1-r4}\n\t"
@@ -226,7 +227,7 @@ void jet_port_init(void)
 		"after_bb_init:\n\t"
 		"ldmfd	sp!, {r1-r4}\n\t"
 	);
-
+*/
 	//MSG_PMIC_setup();
 	//PMIC_setup();
 	enable_SD_LDO();
