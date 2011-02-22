@@ -234,7 +234,7 @@ _battery_okay:
 
 	bl	LCD_init2
 
-	bl	test_adc_ldo
+//	bl	test_adc_ldo
 
 	b	start_qi
 //	b	qi_cstart
